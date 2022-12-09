@@ -3,36 +3,33 @@
   "id": "modid",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "sleepover",
+  "description": "you can sleep in the same bed as other players",
   "authors": [
-    "Me!"
+    "unilock"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "NOT YET DETERMINED",
+    "sources": "https://github.com/unilock/sleepover"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/sleepover/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.unilock.sleepover"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "sleepover.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.14.11",
     "fabric-api": "*",
-    "minecraft": "~1.19.3",
+    "minecraft": "~1.19",
     "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }

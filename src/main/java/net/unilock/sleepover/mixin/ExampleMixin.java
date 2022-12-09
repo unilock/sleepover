@@ -1,6 +1,6 @@
-package net.fabricmc.example.mixin;
+package net.unilock.sleepover.mixin;
 
-import net.fabricmc.example.ExampleMod;
+import net.unilock.sleepover.Sleepover;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -11,6 +11,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class ExampleMixin {
 	@Inject(at = @At("HEAD"), method = "init()V")
 	private void init(CallbackInfo info) {
-		ExampleMod.LOGGER.info("This line is printed by an example mod mixin!");
+		Sleepover.LOGGER.info("This line is printed by an example mod mixin!");
 	}
 }
