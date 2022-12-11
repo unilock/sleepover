@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "sleepover",
   "version": "${version}",
 
   "name": "sleepover",
@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.unilock.sleepover"
+      "net.unilock.sleepover.Sleepover"
     ]
   },
   "mixins": [
@@ -28,7 +28,6 @@
 
   "depends": {
     "fabricloader": ">=0.14.11",
-    "fabric-api": "*",
     "minecraft": "~1.19",
     "java": ">=17"
   }
