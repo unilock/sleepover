@@ -4,9 +4,8 @@
   "package": "net.unilock.sleepover.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-  ],
-  "client": [
-    "ExampleMixin"
+    "BedBlockMixin",
+    "LivingEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1
