@@ -9,7 +9,6 @@
     "unilock"
   ],
   "contact": {
-    "homepage": "NOT YET DETERMINED",
     "sources": "https://github.com/unilock/sleepover"
   },
 
@@ -27,8 +26,7 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.14.11",
-    "minecraft": "~1.19",
-    "java": ">=17"
+    "fabricloader": "*",
+    "minecraft": ">=1.19.2"
   }
 }
