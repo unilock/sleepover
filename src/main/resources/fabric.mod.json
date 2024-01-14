@@ -16,17 +16,12 @@
   "icon": "assets/sleepover/icon.png",
 
   "environment": "*",
-  "entrypoints": {
-    "main": [
-      "net.unilock.sleepover.Sleepover"
-    ]
-  },
   "mixins": [
     "sleepover.mixins.json"
   ],
 
   "depends": {
-    "fabricloader": "*",
+    "fabricloader": ">=0.15.0",
     "minecraft": ">=1.19.2"
   }
 }
